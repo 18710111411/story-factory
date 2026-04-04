@@ -1,0 +1,68 @@
+{
+  "project_id": "{uuid}",
+  "project_name": "{项目名称}",
+  "created_at": "{ISO 时间戳}",
+  "status": "in_progress",
+  "creative_brief": {
+    "theme": "{主题描述}",
+    "type": "广告/短片/社交媒体",
+    "duration_seconds": 30,
+    "style_reference": "{视觉风格参考}",
+    "emotional_tone": "{情感基调}",
+    "target_audience": "{目标受众}",
+    "key_message": "{核心信息}"
+  },
+  "stages": {
+    "screenplay": {
+      "status": "pending",
+      "file": "01_screenplay.md",
+      "iterations": 0,
+      "approved": false
+    },
+    "art_direction": {
+      "status": "pending",
+      "file": "02_art_direction.md",
+      "iterations": 0,
+      "approved": false
+    },
+    "storyboard": {
+      "status": "pending",
+      "dir": "03_storyboard/",
+      "panels": 0,
+      "iterations": 0,
+      "approved": false
+    },
+    "shot_design": {
+      "status": "pending",
+      "file": "04_shot_design.md",
+      "iterations": 0,
+      "approved": false
+    },
+    "prompts": {
+      "status": "pending",
+      "file": "05_prompts.md",
+      "iterations": 0,
+      "approved": false
+    },
+    "video_generation": {
+      "status": "pending",
+      "dir": "06_raw_video/",
+      "clips": [],
+      "model_used": ""
+    },
+    "post_production": {
+      "status": "pending",
+      "dir": "07_final/",
+      "output_file": ""
+    }
+  },
+  "output": {
+    "final_video": "",
+    "duration": 0,
+    "resolution": "",
+    "format": "mp4",
+    "fps": 24
+  },
+  "iterations": [],
+  "notes": []
+}

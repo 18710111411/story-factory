@@ -1,0 +1,56 @@
+{
+  "_comment": "AI Video Creator Agent 配置文件",
+  "_version": "1.0.0",
+  "_created": "2026-04-02",
+  
+  "api_keys": {
+    "muapi": {
+      "api_key": "YOUR_MUAPI_KEY_HERE",
+      "default_model": "kling",
+      "_note": "muapi-cinema-director 使用，支持 Veo3/Kling/Luma"
+    },
+    "seedance": {
+      "api_key": "YOUR_JIMENG_KEY_HERE",
+      "version": "2.0",
+      "_note": "seedance-shot-design 使用，即梦 AI"
+    },
+    "video_generation": {
+      "provider": "image-to-video",
+      "api_key": "YOUR_VIDEO_API_KEY_HERE",
+      "_note": "image-to-video 技能使用"
+    }
+  },
+  
+  "preferences": {
+    "default_duration": 30,
+    "default_resolution": "1920x1080",
+    "default_fps": 24,
+    "default_aspect_ratio": "16:9",
+    "auto_post_production": true,
+    "auto_subtitle": true
+  },
+  
+  "model_preferences": {
+    "product_ad": "kling",
+    "story_short": "veo3",
+    "social_media": "luma",
+    "landscape": "veo3",
+    "action_scene": "kling"
+  },
+  
+  "output": {
+    "project_dir": "/home/admin/.openclaw/workspace/projects",
+    "formats": ["mp4", "mov"],
+    "quality": "high"
+  },
+  
+  "workflow": {
+    "mode": "collaborative",
+    "_modes": {
+      "quick": "自动执行所有阶段",
+      "collaborative": "每个阶段等待确认",
+      "single_stage": "仅执行指定阶段"
+    },
+    "max_iterations_per_stage": 3
+  }
+}

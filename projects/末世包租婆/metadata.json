@@ -1,0 +1,36 @@
+{
+  "project_id": "apocalypse-landlady-ep01",
+  "project_name": "我在末世当包租婆 - 第一集",
+  "created_at": "2026-04-02T01:41:00+08:00",
+  "status": "in_progress",
+  "creative_brief": {
+    "theme": "末世重生 + 系统 + 打脸爽剧",
+    "type": "短剧/网文改编",
+    "duration_seconds": 90,
+    "style_reference": "末世废土 + 赛博朋克 + 爽剧风格",
+    "emotional_tone": "压抑→觉醒→爽感→希望",
+    "target_audience": "网文爱好者，短剧用户，18-35 岁",
+    "key_message": "绝境逆袭，系统觉醒，做自己的主人"
+  },
+  "stages": {
+    "screenplay": { "status": "completed", "file": "01_screenplay.md", "approved": true },
+    "art_direction": { "status": "completed", "file": "02_art_direction.md", "approved": true },
+    "storyboard": { "status": "completed", "dir": "03_storyboard/", "panels": 21, "approved": true },
+    "shot_design": { "status": "completed", "file": "04_shot_design.md", "approved": true },
+    "prompts": { "status": "completed", "file": "05_prompts.md", "approved": true },
+    "video_generation": { "status": "pending", "dir": "06_raw_video/", "segments": 3 },
+    "post_production": { "status": "pending", "dir": "07_final/" }
+  },
+  "output": {
+    "final_video": "",
+    "duration": 90,
+    "resolution": "1080x1920",
+    "format": "mp4",
+    "fps": 24
+  },
+  "notes": [
+    "用户自由发挥测试项目",
+    "末世包租婆题材，爽剧风格",
+    "第一集：觉醒与决裂"
+  ]
+}

@@ -1,0 +1,29 @@
+# AI Video Creator Agent - 忽略文件
+
+# 敏感信息
+.env
+*.key
+*.secret
+
+# 日志文件
+logs/
+*.log
+
+# 临时文件
+tmp/
+*.tmp
+*.cache
+
+# 生成的视频文件 (可能很大)
+projects/*/06_raw_video/*.mp4
+projects/*/07_final/*.mp4
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db

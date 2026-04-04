@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "skills": {
+    "searxng": {
+      "version": "1.0.3",
+      "installedAt": 1775053622047
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1775053623530
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1774420885820
+    },
+    "self-improving-agent": {
+      "version": "3.0.11",
+      "installedAt": 1775055023937
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1775055061200
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1775050510868
+    },
+    "healthcheck": {
+      "version": "1.0.2",
+      "installedAt": 1775050560544
+    },
+    "node-connect": {
+      "version": "1.0.0",
+      "installedAt": 1775050633514
+    },
+    "skill-creator": {
+      "version": "0.1.0",
+      "installedAt": 1775050727323
+    },
+    "openclaw-find-skills": {
+      "version": "1.0.0",
+      "installedAt": 1775050801644
+    },
+    "openclaw-github-assistant": {
+      "version": "2.0.1",
+      "installedAt": 1775052952659
+    },
+    "ontology": {
+      "version": "1.0.4",
+      "installedAt": 1775053811176
+    },
+    "notion-skill": {
+      "version": "1.0.0",
+      "installedAt": 1775053952159
+    },
+    "word-docx": {
+      "version": "1.0.2",
+      "installedAt": 1775054041397
+    },
+    "admapix": {
+      "version": "1.0.28",
+      "installedAt": 1775054161427
+    },
+    "openclaw-tavily-search": {
+      "version": "0.1.0",
+      "installedAt": 1775054280921
+    },
+    "slack": {
+      "version": "1.0.0",
+      "installedAt": 1775054402377
+    },
+    "browser-use": {
+      "version": "2.0.0",
+      "installedAt": 1775054646891
+    },
+    "n8n-workflow-automation": {
+      "version": "1.0.0",
+      "installedAt": 1775054808123
+    },
+    "email-daily-summary": {
+      "version": "0.1.0",
+      "installedAt": 1775055241614
+    },
+    "calendar-manager": {
+      "version": "1.1.0",
+      "installedAt": 1775055310716
+    },
+    "pdf-toolkit-pro": {
+      "version": "1.0.0",
+      "installedAt": 1775055312449
+    },
+    "youtube": {
+      "version": "1.0.1",
+      "installedAt": 1775055369398
+    },
+    "sqlite": {
+      "version": "1.0.0",
+      "installedAt": 1775055441830
+    },
+    "seedance2-storyboard-generator": {
+      "version": "1.0.0",
+      "installedAt": 1775063462692
+    },
+    "script-to-storyboard": {
+      "version": "1.0.0",
+      "installedAt": 1775063471045
+    },
+    "echoflow-novel-to-storyboard": {
+      "version": "1.0.3",
+      "installedAt": 1775063521885
+    },
+    "jisu-movie": {
+      "version": "1.0.4",
+      "installedAt": 1775063552269
+    },
+    "movie-recommender": {
+      "version": "1.0.0",
+      "installedAt": 1775063554525
+    },
+    "movie-subtitle-viewer": {
+      "version": "0.1.0",
+      "installedAt": 1775063571794
+    },
+    "srt-proofreader": {
+      "version": "1.0.0",
+      "installedAt": 1775063581251
+    },
+    "cinematic-script-writer": {
+      "version": "1.4.6",
+      "installedAt": 1775063586897
+    },
+    "muapi-cinema-director": {
+      "version": "1.0.0",
+      "installedAt": 1775064083025
+    },
+    "seedance-shot-design": {
+      "version": "1.7.1",
+      "installedAt": 1775064527262
+    },
+    "video-edit": {
+      "version": "1.0.0",
+      "installedAt": 1775064535421
+    },
+    "ai-video-workflow": {
+      "version": "1.0.0",
+      "installedAt": 1775064537882
+    },
+    "image-to-video": {
+      "version": "0.1.5",
+      "installedAt": 1775064544625
+    }
+  }
+}
