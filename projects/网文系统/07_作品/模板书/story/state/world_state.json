@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2026-04-06",
+  "world": {
+    "name": "青云界",
+    "type": "修仙世界",
+    "technologyLevel": "古代修仙",
+    "magicSystem": "灵气修炼"
+  },
+  "locations": [],
+  "factions": [],
+  "knownInformation": [],
+  "timeline": []
+}
