@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2026-04-06T00:00:00+08:00",
+  "subplots": [
+    {
+      "id": "subplot_A",
+      "name": "支线名称",
+      "type": "感情线/复仇线/成长线",
+      "status": "active/dormant/resolved",
+      "description": "支线描述",
+      "relatedCharacters": ["char_001", "char_002"],
+      "progress": 0.3,
+      "milestones": [
+        {
+          "milestone": "里程碑事件",
+          "achieved": true,
+          "chapter": "第 X 章"
+        }
+      ],
+      "lastAdvanced": "第 X 章",
+      "staleWarning": false,
+      "plannedResolution": "第 X 章"
+    }
+  ],
+  "staleDetection": {
+    "threshold": 10,
+    "warningList": []
+  }
+}

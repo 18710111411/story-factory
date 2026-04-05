@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2026-04-06T00:00:00+08:00",
+  "characters": [
+    {
+      "id": "char_001",
+      "name": "角色姓名",
+      "role": "主角/配角/反派",
+      "age": 16,
+      "gender": "男/女",
+      "appearance": "外貌描述",
+      "personality": ["性格关键词 1", "性格关键词 2"],
+      "background": "背景故事",
+      "motivation": "核心动机",
+      "abilities": ["能力 1", "能力 2"],
+      "relationships": [
+        {
+          "targetId": "char_002",
+          "type": "朋友/敌人/恋人",
+          "description": "关系描述"
+        }
+      ],
+      "currentStatus": {
+        "location": "当前位置",
+        "condition": "健康/受伤/中毒",
+        "inventory": ["物品 1", "物品 2"]
+      },
+      "emotionalState": "当前情绪",
+      "firstAppeared": "第 X 章",
+      "lastAppeared": "第 X 章",
+      "knowledgeBoundary": ["知道的信息列表"]
+    }
+  ],
+  "interactionMatrix": {
+    "char_001_char_002": {
+      "met": true,
+      "metChapter": "第 X 章",
+      "lastInteraction": "第 X 章",
+      "relationship": "关系描述"
+    }
+  }
+}

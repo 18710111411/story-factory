@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2026-04-06T00:00:00+08:00",
+  "world": {
+    "name": "世界名称",
+    "type": "世界类型（修仙/都市/科幻等）",
+    "technologyLevel": "科技/修炼水平",
+    "magicSystem": "力量体系说明"
+  },
+  "locations": [
+    {
+      "id": "loc_001",
+      "name": "地点名称",
+      "type": "宗门/城市/秘境",
+      "description": "地点描述",
+      "firstAppeared": "第 X 章",
+      "status": "active"
+    }
+  ],
+  "factions": [
+    {
+      "id": "fac_001",
+      "name": "势力名称",
+      "type": "宗门/家族/组织",
+      "description": "势力描述",
+      "relationships": [],
+      "status": "active"
+    }
+  ],
+  "knownInformation": [
+    {
+      "id": "info_001",
+      "description": "已揭示的秘密/信息",
+      "revealedChapter": "第 X 章",
+      "knownBy": ["角色 ID 列表"]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "time_001",
+      "event": "重要事件",
+      "chapter": "第 X 章",
+      "description": "事件描述"
+    }
+  ]
+}

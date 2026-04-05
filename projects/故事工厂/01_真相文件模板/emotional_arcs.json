@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2026-04-06T00:00:00+08:00",
+  "arcs": [
+    {
+      "characterId": "char_001",
+      "characterName": "角色姓名",
+      "overallArc": "整体情感弧线（从 X 到 Y）",
+      "stages": [
+        {
+          "stageNumber": 1,
+          "chapterRange": "1-10",
+          "emotionalState": "情绪状态",
+          "catalyst": "触发事件",
+          "growth": "成长/变化"
+        }
+      ],
+      "chapterByChapter": [
+        {
+          "chapter": 1,
+          "emotionalState": "情绪",
+          "trigger": "触发事件",
+          "change": "变化描述"
+        }
+      ]
+    }
+  ]
+}
