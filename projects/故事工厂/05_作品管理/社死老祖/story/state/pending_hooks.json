@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-04-06T08:00:00+08:00",
+  "lastUpdated": "2026-04-06T16:20:00+08:00",
   "hooks": [
     {
       "id": "hook_001",
@@ -8,7 +8,7 @@
       "description": "谁设计了许溪和叶飞雨同床",
       "seedChapter": "第 1 章",
       "seedScene": "许溪醒来发现和叶飞雨同床，陈长生带他参加庆典后断片",
-      "status": "open",
+      "status": "progressing",
       "priority": "high",
       "plannedResolution": "第 15 章",
       "actualResolution": null,
@@ -16,11 +16,8 @@
       "relatedCharacters": ["char_001", "char_003", "char_004"],
       "relatedPlotlines": ["主线"],
       "history": [
-        {
-          "chapter": "第 1 章",
-          "action": "mentioned",
-          "description": "许溪怀疑是陈长生设计"
-        }
+        {"chapter": "第 1 章", "action": "mentioned", "description": "许溪怀疑陈长生设计"},
+        {"chapter": "第 2 章", "action": "advanced", "description": "洞察之眼发现陈长生收了赵无极的灵石"}
       ]
     },
     {
@@ -37,11 +34,8 @@
       "relatedCharacters": ["char_001", "char_003"],
       "relatedPlotlines": ["感情线"],
       "history": [
-        {
-          "chapter": "第 1 章",
-          "action": "mentioned",
-          "description": "叶飞雨说小心身边的人，暗示她知道什么"
-        }
+        {"chapter": "第 1 章", "action": "mentioned", "description": "叶飞雨说小心身边的人，暗示她知道什么"},
+        {"chapter": "第 2 章", "action": "mentioned", "description": "叶飞雨表示会去看外门大比"}
       ]
     },
     {
@@ -58,11 +52,8 @@
       "relatedCharacters": ["char_001", "char_005"],
       "relatedPlotlines": ["主线"],
       "history": [
-        {
-          "chapter": "第 1 章",
-          "action": "mentioned",
-          "description": "赵无极对许溪异常敌视"
-        }
+        {"chapter": "第 1 章", "action": "mentioned", "description": "赵无极对许溪异常敌视"},
+        {"chapter": "第 2 章", "action": "mentioned", "description": "陈长生收了赵无极的灵石"}
       ]
     },
     {
@@ -79,11 +70,8 @@
       "relatedCharacters": ["char_001", "char_003"],
       "relatedPlotlines": ["感情线", "主线"],
       "history": [
-        {
-          "chapter": "第 1 章",
-          "action": "mentioned",
-          "description": "叶飞雨有林默玉简，说明她知道林默转世"
-        }
+        {"chapter": "第 1 章", "action": "mentioned", "description": "叶飞雨有林默玉简，说明她知道林默转世"},
+        {"chapter": "第 2 章", "action": "mentioned", "description": "叶飞雨表示会去看外门大比"}
       ]
     },
     {
@@ -100,18 +88,15 @@
       "relatedCharacters": ["char_001"],
       "relatedPlotlines": ["主线"],
       "history": [
-        {
-          "chapter": "第 1 章",
-          "action": "mentioned",
-          "description": "系统觉醒时机太巧"
-        }
+        {"chapter": "第 1 章", "action": "mentioned", "description": "系统觉醒时机太巧"},
+        {"chapter": "第 2 章", "action": "mentioned", "description": "系统有净化迷药功能"}
       ]
     }
   ],
   "hookStats": {
     "total": 5,
-    "open": 5,
-    "progressing": 0,
+    "open": 4,
+    "progressing": 1,
     "resolved": 0,
     "staleDebt": 0
   }
