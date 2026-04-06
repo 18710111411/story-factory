@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-04-06T16:20:00+08:00",
+  "lastUpdated": "2026-04-06T17:25:00+08:00",
   "chapters": [
     {
       "chapterNumber": 1,
@@ -59,6 +59,37 @@
         {"characterId": "char_001", "item": "修炼加速卡", "change": "-1", "reason": "使用修炼"},
         {"characterId": "char_001", "item": "护身符", "change": "+1", "reason": "苏清雪赠送"},
         {"characterId": "char_001", "item": "青云酒", "change": "+1", "reason": "陈长生留下（掺迷药）"}
+      ],
+      "status": "approved"
+    },
+    {
+      "chapterNumber": 3,
+      "title": "突破炼气四层",
+      "wordCount": 5200,
+      "writeDate": "2026-04-06",
+      "summary": "陈长生再次试探许溪，许溪用洞察之眼识破。许溪突破到炼气四层，和苏清雪一起报名大比。系统发布社死任务（大比开幕式跳舞）。陈长生与赵无极密谋。",
+      "scenes": [
+        {"sceneNumber": 1, "location": "青云宗驻地", "characters": ["char_001", "char_004"], "summary": "陈长生带早餐来访，继续试探"},
+        {"sceneNumber": 2, "location": "青云宗驻地", "characters": ["char_001"], "summary": "许溪突破炼气四层"},
+        {"sceneNumber": 3, "location": "青云宗广场", "characters": ["char_001", "char_002"], "summary": "大比报名，苏清雪同行"},
+        {"sceneNumber": 4, "location": "青云宗广场", "characters": ["char_001"], "summary": "打脸议论者"},
+        {"sceneNumber": 5, "location": "青云宗角落", "characters": ["char_004", "char_005"], "summary": "陈长生与赵无极密谋"}
+      ],
+      "charactersAppeared": ["char_001", "char_002", "char_004", "char_005"],
+      "newCharacters": [],
+      "newLocations": ["青云宗广场", "青云宗角落"],
+      "keyEvents": ["陈长生再次试探", "许溪突破炼气四层", "大比报名", "系统发布社死任务", "陈长生与赵无极密谋"],
+      "hooksAdded": [],
+      "hooksResolved": [],
+      "hooksAdvanced": ["hook_001"],
+      "emotionalChanges": [
+        {"characterId": "char_001", "from": "警惕", "to": "决心", "trigger": "突破炼气四层"},
+        {"characterId": "char_002", "from": "崇拜", "to": "害羞", "trigger": "许溪夸她厉害"}
+      ],
+      "resourceChanges": [
+        {"characterId": "char_001", "item": "修炼加速卡", "change": "-1", "reason": "突破使用"},
+        {"characterId": "char_001", "item": "社死值", "change": "+50", "reason": "突破奖励"},
+        {"characterId": "char_001", "item": "修为", "change": "炼气三层→四层", "reason": "突破"}
       ],
       "status": "draft"
     }
