@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-04-06T17:35:00+08:00",
+  "lastUpdated": "2026-04-06T20:50:00+08:00",
   "chapters": [
     {
       "chapterNumber": 1,
@@ -37,7 +37,7 @@
       "title": "这个系统不正经",
       "wordCount": 5200,
       "writeDate": "2026-04-06",
-      "summary": "许溪研究系统功能，苏清雪送护身符表达关心。陈长生来访试探，许溪用洞察之眼发现他收了赵无极的灵石。外门大比公告发布，系统发布新任务。",
+      "summary": "许溪研究系统功能，苏清雪送护身符表达关心。陈长生来访试探，许溪用洞察之眼发现赵无极答应给他筑基丹。外门大比公告发布，系统发布新任务。",
       "scenes": [
         {"sceneNumber": 1, "location": "青云宗驻地", "characters": ["char_001"], "summary": "许溪研究系统商城和功能"},
         {"sceneNumber": 2, "location": "青云宗驻地", "characters": ["char_001", "char_002"], "summary": "苏清雪送护身符，暧昧互动"},
@@ -47,7 +47,7 @@
       "charactersAppeared": ["char_001", "char_002", "char_004"],
       "newCharacters": ["char_002"],
       "newLocations": [],
-      "keyEvents": ["系统功能详解", "苏清雪送护身符", "陈长生收灵石被发现", "外门大比任务发布"],
+      "keyEvents": ["系统功能详解", "苏清雪送护身符", "赵无极答应给陈长生筑基丹", "外门大比任务发布"],
       "hooksAdded": [],
       "hooksResolved": [],
       "hooksAdvanced": ["hook_001"],
@@ -122,6 +122,38 @@
         {"characterId": "char_001", "item": "社死值", "change": "+100", "reason": "任务奖励"},
         {"characterId": "char_001", "item": "神秘线索", "change": "+1", "reason": "任务奖励"},
         {"characterId": "char_001", "item": "基础舞步熟练度", "change": "+30", "reason": "练习"}
+      ],
+      "status": "approved"
+    },
+    {
+      "chapterNumber": 5,
+      "title": "舞蹈震惊全场",
+      "wordCount": 5500,
+      "writeDate": "2026-04-06",
+      "summary": "大比开幕式许溪用舞蹈震惊全场，获得系统奖励。第一轮对战王大力，用剑舞轻松获胜。第二轮对战李天，再次秒杀。陈长生的阴谋开始实施。",
+      "scenes": [
+        {"sceneNumber": 1, "location": "大比高台", "characters": ["char_001", "char_002", "char_003"], "summary": "舞蹈表演震惊全场"},
+        {"sceneNumber": 2, "location": "高台角落", "characters": ["char_004", "char_005"], "summary": "赵无极与陈长生密谋"},
+        {"sceneNumber": 3, "location": "大比场地", "characters": ["char_001", "王大力"], "summary": "第一轮对战王大力，剑舞获胜"},
+        {"sceneNumber": 4, "location": "大比场地", "characters": ["char_001", "李天"], "summary": "第二轮对战李天，秒杀获胜"},
+        {"sceneNumber": 5, "location": "休息区", "characters": ["char_001", "char_002"], "summary": "苏清雪关心许溪伤势"}
+      ],
+      "charactersAppeared": ["char_001", "char_002", "char_003", "char_004", "char_005", "王大力", "李天"],
+      "newCharacters": ["王大力", "李天"],
+      "newLocations": ["大比场地", "休息区"],
+      "keyEvents": ["舞蹈震惊全场", "系统任务完成", "剑舞获胜", "连续秒杀", "陈长生阴谋开始"],
+      "hooksAdded": [],
+      "hooksResolved": [],
+      "hooksAdvanced": ["hook_001", "hook_002", "hook_003"],
+      "emotionalChanges": [
+        {"characterId": "char_001", "from": "平静", "to": "自信警惕", "trigger": "舞蹈震惊→阴谋察觉"},
+        {"characterId": "char_002", "from": "兴奋", "to": "担心", "trigger": "许溪受伤"},
+        {"characterId": "char_003", "from": "期待", "to": "认可", "trigger": "看许溪比赛"}
+      ],
+      "resourceChanges": [
+        {"characterId": "char_001", "item": "社死值", "change": "+100", "reason": "任务奖励"},
+        {"characterId": "char_001", "item": "修为", "change": "炼气四层（30/150）", "reason": "巩固"},
+        {"characterId": "char_001", "item": "基础舞步熟练度", "change": "+50", "reason": "大比使用"}
       ],
       "status": "draft"
     }
