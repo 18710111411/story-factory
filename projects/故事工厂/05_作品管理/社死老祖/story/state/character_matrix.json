@@ -96,9 +96,9 @@
         "inventory": []
       },
       "emotionalState": "？",
-      "firstAppeared": "第 1 章（提及）",
-      "lastAppeared": "第 1 章（提及）",
-      "knowledgeBoundary": ["？"]
+      "firstAppeared": "第 1 章",
+      "lastAppeared": "第 1 章",
+      "knowledgeBoundary": ["带许溪参加合欢宗庆典", "可能设计许溪"]
     },
     {
       "id": "char_005",
@@ -152,6 +152,11 @@
     }
   }
 }
+  }
+}
+"lastInteraction": "第 1 章（被逼下跪）",
+      "relationship": "敌对"
+    }
   }
 }
 "lastInteraction": "第 1 章（被逼下跪）",
