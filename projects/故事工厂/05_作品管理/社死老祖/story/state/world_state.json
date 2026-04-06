@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2026-04-06T08:00:00+08:00",
+  "world": {
+    "name": "青云界",
+    "type": "修仙世界",
+    "technologyLevel": "古代修仙",
+    "magicSystem": "灵气修炼（炼气→筑基→金丹→元婴→化神→超脱）"
+  },
+  "locations": [
+    {
+      "id": "loc_001",
+      "name": "青云宗",
+      "type": "宗门",
+      "description": "东洲二流宗门，以剑道闻名，50 年后被魔道覆灭",
+      "firstAppeared": "第 1 章",
+      "status": "active"
+    },
+    {
+      "id": "loc_002",
+      "name": "合欢宗",
+      "type": "宗门",
+      "description": "魔道宗门，前世主角的宗门，以舞修闻名",
+      "firstAppeared": "第 1 章",
+      "status": "active"
+    }
+  ],
+  "factions": [
+    {
+      "id": "fac_001",
+      "name": "青云宗",
+      "type": "宗门",
+      "description": "主角今生所在宗门",
+      "relationships": ["与合欢宗敌对"],
+      "status": "active"
+    },
+    {
+      "id": "fac_002",
+      "name": "合欢宗",
+      "type": "宗门",
+      "description": "魔道宗门，主角前世所在",
+      "relationships": ["与青云宗敌对"],
+      "status": "active"
+    },
+    {
+      "id": "fac_003",
+      "name": "正道盟",
+      "type": "联盟",
+      "description": "正道联盟，前世围剿合欢宗",
+      "relationships": ["与合欢宗敌对", "与主角敌对"],
+      "status": "active"
+    }
+  ],
+  "knownInformation": [
+    {
+      "id": "info_001",
+      "description": "许溪是重生者（只有主角知道）",
+      "revealedChapter": "第 1 章",
+      "knownBy": ["char_001"]
+    },
+    {
+      "id": "info_002",
+      "description": "青云宗 50 年后被魔道覆灭（主角前世记忆）",
+      "revealedChapter": "第 1 章",
+      "knownBy": ["char_001"]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "time_001",
+      "event": "林默（许溪前世）被正道盟围剿陨落",
+      "chapter": "第 1 章（回忆）",
+      "description": "260 年前，合欢宗老祖林默被背叛陨落"
+    },
+    {
+      "id": "time_002",
+      "event": "许溪重生",
+      "chapter": "第 1 章",
+      "description": "林默重生到 300 年前的青云宗外门弟子许溪身上"
+    }
+  ]
+}

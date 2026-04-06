@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2026-04-06T08:00:00+08:00",
+  "hooks": [
+    {
+      "id": "hook_001",
+      "type": "悬念",
+      "description": "谁设计了许溪和叶飞雨同床",
+      "seedChapter": "第 1 章",
+      "seedScene": "许溪醒来发现和叶飞雨同床，陈长生带他参加庆典后断片",
+      "status": "open",
+      "priority": "high",
+      "plannedResolution": "第 15 章",
+      "actualResolution": null,
+      "resolutionChapter": null,
+      "relatedCharacters": ["char_001", "char_003", "char_004"],
+      "relatedPlotlines": ["主线"],
+      "history": [
+        {
+          "chapter": "第 1 章",
+          "action": "mentioned",
+          "description": "许溪怀疑是陈长生设计"
+        }
+      ]
+    },
+    {
+      "id": "hook_002",
+      "type": "悬念",
+      "description": "叶飞雨为什么帮许溪解围",
+      "seedChapter": "第 1 章",
+      "seedScene": "叶飞雨对赵无极说是自己自愿的，帮许溪解围",
+      "status": "open",
+      "priority": "high",
+      "plannedResolution": "第 80 章",
+      "actualResolution": null,
+      "resolutionChapter": null,
+      "relatedCharacters": ["char_001", "char_003"],
+      "relatedPlotlines": ["感情线"],
+      "history": [
+        {
+          "chapter": "第 1 章",
+          "action": "mentioned",
+          "description": "叶飞雨说小心身边的人，暗示她知道什么"
+        }
+      ]
+    },
+    {
+      "id": "hook_003",
+      "type": "悬念",
+      "description": "赵无极的真实目的（内奸线索）",
+      "seedChapter": "第 1 章",
+      "seedScene": "赵无极逼迫许溪下跪道歉，态度异常强硬",
+      "status": "open",
+      "priority": "medium",
+      "plannedResolution": "第 10 章",
+      "actualResolution": null,
+      "resolutionChapter": null,
+      "relatedCharacters": ["char_001", "char_005"],
+      "relatedPlotlines": ["主线"],
+      "history": [
+        {
+          "chapter": "第 1 章",
+          "action": "mentioned",
+          "description": "赵无极对许溪异常敌视"
+        }
+      ]
+    },
+    {
+      "id": "hook_004",
+      "type": "伏笔",
+      "description": "叶飞雨手中的林默玉简",
+      "seedChapter": "第 1 章",
+      "seedScene": "叶飞雨房间桌上放着刻有'林默'的玉简",
+      "status": "open",
+      "priority": "high",
+      "plannedResolution": "第 100 章",
+      "actualResolution": null,
+      "resolutionChapter": null,
+      "relatedCharacters": ["char_001", "char_003"],
+      "relatedPlotlines": ["感情线", "主线"],
+      "history": [
+        {
+          "chapter": "第 1 章",
+          "action": "mentioned",
+          "description": "叶飞雨有林默玉简，说明她知道林默转世"
+        }
+      ]
+    },
+    {
+      "id": "hook_005",
+      "type": "伏笔",
+      "description": "社死系统的来源",
+      "seedChapter": "第 1 章",
+      "seedScene": "系统突然觉醒",
+      "status": "open",
+      "priority": "medium",
+      "plannedResolution": "第 220 章",
+      "actualResolution": null,
+      "resolutionChapter": null,
+      "relatedCharacters": ["char_001"],
+      "relatedPlotlines": ["主线"],
+      "history": [
+        {
+          "chapter": "第 1 章",
+          "action": "mentioned",
+          "description": "系统觉醒时机太巧"
+        }
+      ]
+    }
+  ],
+  "hookStats": {
+    "total": 5,
+    "open": 5,
+    "progressing": 0,
+    "resolved": 0,
+    "staleDebt": 0
+  }
+}

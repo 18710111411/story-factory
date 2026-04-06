@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2026-04-06T08:00:00+08:00",
+  "characters": [
+    {
+      "id": "char_001",
+      "name": "许溪（林默）",
+      "role": "主角",
+      "age": 16,
+      "gender": "男",
+      "appearance": "清秀俊朗，眼神深邃",
+      "personality": ["老谋深算", "谨慎多疑", "乐子人", "护短"],
+      "background": "前世是合欢宗老祖林默，被背叛后重生到青云宗外门弟子许溪身上",
+      "motivation": "前世复仇 + 今生守护 + 超脱轮回",
+      "abilities": ["社死系统", "前世元婴期经验", "合欢宗功法"],
+      "relationships": [
+        {"targetId": "char_002", "type": "牵挂", "description": "今生女主，让主角有牵挂"},
+        {"targetId": "char_003", "type": "前世故人", "description": "前世仰慕者，今生合欢宗师姐"},
+        {"targetId": "char_004", "type": "好友（嫌疑）", "description": "前世兄弟，今生带主角参加合欢宗庆典"}
+      ],
+      "currentStatus": {
+        "location": "青云宗外门",
+        "condition": "健康",
+        "inventory": ["社死系统"]
+      },
+      "emotionalState": "警惕 + 无奈 + 期待",
+      "firstAppeared": "第 1 章",
+      "lastAppeared": "第 1 章",
+      "knowledgeBoundary": ["知道青云宗 50 年后被灭", "知道自己是重生者", "知道社死系统"]
+    },
+    {
+      "id": "char_002",
+      "name": "苏清雪",
+      "role": "女主",
+      "age": 15,
+      "gender": "女",
+      "appearance": "清秀可爱，笑容甜美",
+      "personality": ["善良", "单纯", "执着"],
+      "background": "青云宗小师妹，对许溪有好感",
+      "motivation": "保护许溪",
+      "abilities": ["青云宗功法"],
+      "relationships": [
+        {"targetId": "char_001", "type": "暗恋", "description": "喜欢许溪师兄"}
+      ],
+      "currentStatus": {
+        "location": "青云宗外门",
+        "condition": "健康",
+        "inventory": []
+      },
+      "emotionalState": "关心许溪",
+      "firstAppeared": "第 1 章（提及）",
+      "lastAppeared": "第 1 章（提及）",
+      "knowledgeBoundary": ["不知道许溪重生"]
+    },
+    {
+      "id": "char_003",
+      "name": "叶飞雨",
+      "role": "女配",
+      "age": 20,
+      "gender": "女",
+      "appearance": "红衣绝美，眼神深邃",
+      "personality": ["神秘", "冷静", "有主见"],
+      "background": "合欢宗内门师姐，前世仰慕林默",
+      "motivation": "保护许溪（认出他是林默转世）",
+      "abilities": ["合欢宗功法", "筑基中期修为"],
+      "relationships": [
+        {"targetId": "char_001", "type": "前世故人", "description": "认出许溪是林默转世"}
+      ],
+      "currentStatus": {
+        "location": "合欢宗",
+        "condition": "健康",
+        "inventory": ["林默玉简"]
+      },
+      "emotionalState": "复杂（重逢喜悦 + 无奈）",
+      "firstAppeared": "第 1 章",
+      "lastAppeared": "第 1 章",
+      "knowledgeBoundary": ["知道许溪可能是林默转世", "不知道许溪完全重生"]
+    },
+    {
+      "id": "char_004",
+      "name": "陈长生",
+      "role": "配角（嫌疑）",
+      "age": 17,
+      "gender": "男",
+      "appearance": "憨厚老实",
+      "personality": ["表面憨厚", "内心复杂"],
+      "background": "青云宗外门弟子，许溪的好友",
+      "motivation": "？（待定）",
+      "abilities": ["青云宗功法", "筑基六层修为"],
+      "relationships": [
+        {"targetId": "char_001", "type": "好友", "description": "带许溪参加合欢宗庆典"}
+      ],
+      "currentStatus": {
+        "location": "合欢宗庆典",
+        "condition": "健康",
+        "inventory": []
+      },
+      "emotionalState": "？",
+      "firstAppeared": "第 1 章（提及）",
+      "lastAppeared": "第 1 章（提及）",
+      "knowledgeBoundary": ["？"]
+    },
+    {
+      "id": "char_005",
+      "name": "赵无极",
+      "role": "反派（嫌疑）",
+      "age": 50,
+      "gender": "男",
+      "appearance": "中年男子，眼神阴冷",
+      "personality": ["阴险", "多疑", "权力欲强"],
+      "background": "合欢宗执法长老，金丹初期",
+      "motivation": "？（可能是内奸）",
+      "abilities": ["合欢宗功法", "金丹初期修为"],
+      "relationships": [
+        {"targetId": "char_001", "type": "敌对", "description": "逼迫许溪下跪道歉"}
+      ],
+      "currentStatus": {
+        "location": "合欢宗",
+        "condition": "健康",
+        "inventory": []
+      },
+      "emotionalState": "愤怒",
+      "firstAppeared": "第 1 章",
+      "lastAppeared": "第 1 章",
+      "knowledgeBoundary": ["不知道许溪重生", "对许溪敌视"]
+    }
+  ],
+  "interactionMatrix": {
+    "char_001_char_002": {
+      "met": false,
+      "metChapter": null,
+      "lastInteraction": null,
+      "relationship": "许溪知道苏清雪，苏清雪暗恋许溪"
+    },
+    "char_001_char_003": {
+      "met": true,
+      "metChapter": "第 1 章",
+      "lastInteraction": "第 1 章（被捉奸在床）",
+      "relationship": "叶飞雨认出许溪是林默转世，许溪不知道"
+    },
+    "char_001_char_004": {
+      "met": true,
+      "metChapter": "3 天前",
+      "lastInteraction": "合欢宗庆典",
+      "relationship": "陈长生带许溪参加庆典，许溪怀疑他"
+    },
+    "char_001_char_005": {
+      "met": true,
+      "metChapter": "第 1 章",
+      "lastInteraction": "第 1 章（被逼下跪）",
+      "relationship": "敌对"
+    }
+  }
+}
+  }
+}
+"lastInteraction": "第 1 章（被逼下跪）",
+      "relationship": "敌对"
+    }
+  }
+}

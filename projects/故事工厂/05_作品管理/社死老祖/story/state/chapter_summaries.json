@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2026-04-06T10:45:00+08:00",
+  "chapters": [
+    {
+      "chapterNumber": 1,
+      "title": "开局被捉奸在床",
+      "wordCount": 5200,
+      "writeDate": "2026-04-06",
+      "summary": "许溪重生到青云宗外门弟子身上，被设计捉奸在床，被迫下跪道歉。系统觉醒，获得社死系统。完成新手任务（跳舞表演），获得洞察之眼技能。叶飞雨似乎知道许溪的真实身份。",
+      "scenes": [
+        {
+          "sceneNumber": 1,
+          "location": "合欢宗房间",
+          "characters": ["char_001", "char_003"],
+          "summary": "许溪醒来，发现和叶飞雨同床"
+        },
+        {
+          "sceneNumber": 2,
+          "location": "合欢宗房间",
+          "characters": ["char_001", "char_003", "char_005"],
+          "summary": "被捉奸在床，被迫下跪道歉"
+        },
+        {
+          "sceneNumber": 3,
+          "location": "合欢宗广场",
+          "characters": ["char_001"],
+          "summary": "系统觉醒，跳舞完成任务"
+        },
+        {
+          "sceneNumber": 4,
+          "location": "合欢宗广场",
+          "characters": ["char_001", "char_003", "char_004"],
+          "summary": "叶飞雨注视，陈长生来找"
+        },
+        {
+          "sceneNumber": 5,
+          "location": "青云宗驻地",
+          "characters": ["char_001"],
+          "summary": "修炼提升，叶飞雨房间有林默玉简"
+        }
+      ],
+      "charactersAppeared": ["char_001", "char_003", "char_004", "char_005"],
+      "newCharacters": ["char_001", "char_003", "char_004", "char_005"],
+      "newLocations": ["loc_001", "loc_002"],
+      "keyEvents": ["许溪重生", "被捉奸在床", "系统觉醒", "跳舞完成任务", "获得洞察之眼"],
+      "hooksAdded": ["hook_001", "hook_002", "hook_003", "hook_004", "hook_005"],
+      "hooksResolved": [],
+      "hooksAdvanced": [],
+      "emotionalChanges": [
+        {
+          "characterId": "char_001",
+          "from": "震惊疑惑",
+          "to": "无奈期待",
+          "trigger": "被捉奸→系统觉醒"
+        },
+        {
+          "characterId": "char_003",
+          "from": "复杂",
+          "to": "喜悦无奈",
+          "trigger": "确认许溪是林默转世"
+        }
+      ],
+      "resourceChanges": [
+        {
+          "characterId": "char_001",
+          "item": "修炼加速卡",
+          "change": "+3",
+          "reason": "新手礼包奖励"
+        },
+        {
+          "characterId": "char_001",
+          "item": "社死值",
+          "change": "+140",
+          "reason": "新手礼包 + 任务奖励"
+        }
+      ],
+      "status": "draft"
+    }
+  ]
+}
