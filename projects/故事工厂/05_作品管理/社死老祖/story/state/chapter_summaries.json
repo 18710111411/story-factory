@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-04-06T17:25:00+08:00",
+  "lastUpdated": "2026-04-06T17:35:00+08:00",
   "chapters": [
     {
       "chapterNumber": 1,
@@ -90,6 +90,38 @@
         {"characterId": "char_001", "item": "修炼加速卡", "change": "-1", "reason": "突破使用"},
         {"characterId": "char_001", "item": "社死值", "change": "+50", "reason": "突破奖励"},
         {"characterId": "char_001", "item": "修为", "change": "炼气三层→四层", "reason": "突破"}
+      ],
+      "status": "approved"
+    },
+    {
+      "chapterNumber": 4,
+      "title": "大比前的准备",
+      "wordCount": 5200,
+      "writeDate": "2026-04-06",
+      "summary": "许溪练习舞蹈完成系统任务，获得神秘线索（系统来源与轮回使者有关）。叶飞雨来看大比，好感度提升。大比开幕，许溪用舞蹈震惊全场。",
+      "scenes": [
+        {"sceneNumber": 1, "location": "青云宗驻地", "characters": ["char_001"], "summary": "系统任务详解，许溪练习舞蹈"},
+        {"sceneNumber": 2, "location": "青云宗驻地", "characters": ["char_001"], "summary": "修炼加速卡巩固修为"},
+        {"sceneNumber": 3, "location": "青云宗广场", "characters": ["char_001", "char_002"], "summary": "与苏清雪一起前往大比场地"},
+        {"sceneNumber": 4, "location": "大比高台", "characters": ["char_001", "char_002", "char_003"], "summary": "开幕式跳舞，叶飞雨来看大比"},
+        {"sceneNumber": 5, "location": "大比高台", "characters": ["char_001"], "summary": "任务完成，获得神秘线索"}
+      ],
+      "charactersAppeared": ["char_001", "char_002", "char_003"],
+      "newCharacters": [],
+      "newLocations": ["大比高台"],
+      "keyEvents": ["舞蹈练习", "系统任务完成", "获得神秘线索", "叶飞雨来看大比", "大比开幕"],
+      "hooksAdded": [],
+      "hooksResolved": [],
+      "hooksAdvanced": ["hook_002", "hook_005"],
+      "emotionalChanges": [
+        {"characterId": "char_001", "from": "无奈", "to": "自信", "trigger": "舞蹈练习完成"},
+        {"characterId": "char_003", "from": "期待", "to": "友好", "trigger": "看许溪跳舞"}
+      ],
+      "resourceChanges": [
+        {"characterId": "char_001", "item": "修炼加速卡", "change": "-1", "reason": "巩固修为使用"},
+        {"characterId": "char_001", "item": "社死值", "change": "+100", "reason": "任务奖励"},
+        {"characterId": "char_001", "item": "神秘线索", "change": "+1", "reason": "任务奖励"},
+        {"characterId": "char_001", "item": "基础舞步熟练度", "change": "+30", "reason": "练习"}
       ],
       "status": "draft"
     }

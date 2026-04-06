@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-04-06T17:25:00+08:00",
+  "lastUpdated": "2026-04-06T17:35:00+08:00",
   "hooks": [
     {
       "id": "hook_001",
@@ -18,7 +18,8 @@
       "history": [
         {"chapter": "第 1 章", "action": "mentioned", "description": "许溪怀疑陈长生设计"},
         {"chapter": "第 2 章", "action": "advanced", "description": "洞察之眼发现陈长生收了赵无极的灵石"},
-        {"chapter": "第 3 章", "action": "advanced", "description": "陈长生与赵无极密谋，确认是设计者"}
+        {"chapter": "第 3 章", "action": "advanced", "description": "陈长生与赵无极密谋，确认是设计者"},
+        {"chapter": "第 4 章", "action": "mentioned", "description": "陈长生安排弟子在大比上围攻许溪"}
       ]
     },
     {
@@ -27,7 +28,7 @@
       "description": "叶飞雨为什么帮许溪解围",
       "seedChapter": "第 1 章",
       "seedScene": "叶飞雨对赵无极说是自己自愿的，帮许溪解围",
-      "status": "open",
+      "status": "progressing",
       "priority": "high",
       "plannedResolution": "第 80 章",
       "actualResolution": null,
@@ -37,7 +38,8 @@
       "history": [
         {"chapter": "第 1 章", "action": "mentioned", "description": "叶飞雨说小心身边的人，暗示她知道什么"},
         {"chapter": "第 2 章", "action": "mentioned", "description": "叶飞雨表示会去看外门大比"},
-        {"chapter": "第 3 章", "action": "mentioned", "description": "苏清雪提到叶飞雨会来看大比"}
+        {"chapter": "第 3 章", "action": "mentioned", "description": "苏清雪提到叶飞雨会来看大比"},
+        {"chapter": "第 4 章", "action": "advanced", "description": "叶飞雨来看大比，好感度提升到 30/100"}
       ]
     },
     {
@@ -56,7 +58,8 @@
       "history": [
         {"chapter": "第 1 章", "action": "mentioned", "description": "赵无极对许溪异常敌视"},
         {"chapter": "第 2 章", "action": "mentioned", "description": "陈长生收了赵无极的灵石"},
-        {"chapter": "第 3 章", "action": "advanced", "description": "赵无极与陈长生密谋，要让许溪输得很惨"}
+        {"chapter": "第 3 章", "action": "advanced", "description": "赵无极与陈长生密谋，要让许溪输得很惨"},
+        {"chapter": "第 4 章", "action": "mentioned", "description": "赵无极在大比高台观战"}
       ]
     },
     {
@@ -75,7 +78,8 @@
       "history": [
         {"chapter": "第 1 章", "action": "mentioned", "description": "叶飞雨有林默玉简，说明她知道林默转世"},
         {"chapter": "第 2 章", "action": "mentioned", "description": "叶飞雨表示会去看外门大比"},
-        {"chapter": "第 3 章", "action": "mentioned", "description": "叶飞雨期待许溪的表现"}
+        {"chapter": "第 3 章", "action": "mentioned", "description": "叶飞雨期待许溪的表现"},
+        {"chapter": "第 4 章", "action": "mentioned", "description": "叶飞雨来看大比，对许溪说大比要靠实力"}
       ]
     },
     {
@@ -84,7 +88,7 @@
       "description": "社死系统的来源",
       "seedChapter": "第 1 章",
       "seedScene": "系统突然觉醒",
-      "status": "open",
+      "status": "progressing",
       "priority": "medium",
       "plannedResolution": "第 220 章",
       "actualResolution": null,
@@ -94,14 +98,15 @@
       "history": [
         {"chapter": "第 1 章", "action": "mentioned", "description": "系统觉醒时机太巧"},
         {"chapter": "第 2 章", "action": "mentioned", "description": "系统有净化迷药功能"},
-        {"chapter": "第 3 章", "action": "mentioned", "description": "系统发布社死任务（大比跳舞）"}
+        {"chapter": "第 3 章", "action": "mentioned", "description": "系统发布社死任务（大比跳舞）"},
+        {"chapter": "第 4 章", "action": "advanced", "description": "获得神秘线索：系统来源与轮回使者有关"}
       ]
     }
   ],
   "hookStats": {
     "total": 5,
-    "open": 3,
-    "progressing": 2,
+    "open": 1,
+    "progressing": 4,
     "resolved": 0,
     "staleDebt": 0
   }
