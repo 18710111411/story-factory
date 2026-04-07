@@ -1,7 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-04-06T20:50:00+08:00",
+  "lastUpdated": "2026-04-07T17:45:00+08:00",
   "chapters": [
+    {
+      "chapterNumber": 6,
+      "title": "剑舞首秀，一击制胜",
+      "wordCount": 4988,
+      "writeDate": "2026-04-07",
+      "summary": "许溪在外门大比第一轮用剑舞轻松击败王大力和李天，展示实力。叶飞雨提醒许溪小心陈长生的阴谋，并暗示知道许溪是林默转世，好感度提升到 50/100。陈长生与赵无极继续密谋，准备在决赛围攻许溪。",
+      "scenes": [
+        {"sceneNumber": 1, "location": "大比场地", "characters": ["char_001", "王大力"], "summary": "第一轮对战王大力，剑舞获胜"},
+        {"sceneNumber": 2, "location": "大比场地", "characters": ["char_001", "李天"], "summary": "第二轮对战李天，三招获胜"},
+        {"sceneNumber": 3, "location": "休息区", "characters": ["char_001", "char_003"], "summary": "叶飞雨提醒许溪小心陈长生，暗示知道身份"},
+        {"sceneNumber": 4, "location": "高台", "characters": ["char_004", "char_005"], "summary": "赵无极与陈长生密谋，准备决赛围攻"}
+      ],
+      "charactersAppeared": ["char_001", "char_002", "char_003", "char_004", "char_005", "王大力", "李天"],
+      "newCharacters": ["李天"],
+      "newLocations": ["休息区"],
+      "keyEvents": ["剑舞首秀", "两轮轻松获胜", "叶飞雨提醒", "身份暗示", "阴谋推进"],
+      "hooksAdded": [],
+      "hooksResolved": [],
+      "hooksAdvanced": ["hook_001", "hook_002", "hook_003", "hook_004"],
+      "emotionalChanges": [
+        {"characterId": "char_001", "from": "平静", "to": "自信警惕复杂", "trigger": "获胜→叶飞雨提醒→身份暗示"},
+        {"characterId": "char_003", "from": "期待", "to": "暧昧", "trigger": "确认许溪是林默转世"},
+        {"characterId": "char_004", "from": "挣扎", "to": "决心", "trigger": "筑基丹诱惑"}
+      ],
+      "resourceChanges": [
+        {"characterId": "char_001", "item": "修为", "change": "炼气四层（50/150）", "reason": "比赛消耗"},
+        {"characterId": "char_001", "item": "社死值", "change": "+100", "reason": "剑舞表演奖励"},
+        {"characterId": "char_001", "item": "基础舞步熟练度", "change": "+20", "reason": "比赛使用"}
+      ],
+      "status": "draft"
+    },
+    {
     {
       "chapterNumber": 1,
       "title": "开局被捉奸在床",
