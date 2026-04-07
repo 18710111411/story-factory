@@ -1,7 +1,37 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-04-07T17:45:00+08:00",
+  "lastUpdated": "2026-04-07T20:15:00+08:00",
   "chapters": [
+    {
+      "chapterNumber": 2,
+      "title": "这个系统不正经",
+      "wordCount": 5200,
+      "writeDate": "2026-04-07",
+      "summary": "许溪回到青云宗驻地，回忆陈长生的试探。系统奖励洞察之眼，许溪吐槽系统不正经。苏清雪送来护身符表达关心，许溪决定保护对自己有善意的人。使用修炼加速卡，修为提升到炼气三层 45/100。",
+      "scenes": [
+        {"sceneNumber": 1, "location": "青云宗驻地", "characters": ["char_001"], "summary": "许溪回忆陈长生试探，决定变强逃跑"},
+        {"sceneNumber": 2, "location": "青云宗驻地", "characters": ["char_001"], "summary": "系统奖励洞察之眼，吐槽商城"},
+        {"sceneNumber": 3, "location": "青云宗驻地", "characters": ["char_001", "char_002"], "summary": "苏清雪送护身符，许溪感动"},
+        {"sceneNumber": 4, "location": "青云宗驻地", "characters": ["char_001"], "summary": "使用修炼加速卡，修为提升"}
+      ],
+      "charactersAppeared": ["char_001", "char_002", "王大力"],
+      "newCharacters": ["char_002"],
+      "newLocations": [],
+      "keyEvents": ["获得洞察之眼", "苏清雪送护身符", "修炼加速"],
+      "hooksAdded": [],
+      "hooksResolved": [],
+      "hooksAdvanced": ["hook_002"],
+      "emotionalChanges": [
+        {"characterId": "char_001", "from": "警惕", "to": "温暖决心", "trigger": "苏清雪关心"},
+        {"characterId": "char_002", "from": "担心", "to": "开心", "trigger": "许溪收下护身符"}
+      ],
+      "resourceChanges": [
+        {"characterId": "char_001", "item": "修炼加速卡", "change": "-1", "reason": "使用修炼"},
+        {"characterId": "char_001", "item": "护身符", "change": "+1", "reason": "苏清雪赠送"},
+        {"characterId": "char_001", "item": "修为", "change": "炼气三层（35/100→45/100）", "reason": "修炼加速卡"}
+      ],
+      "status": "approved"
+    },
     {
       "chapterNumber": 6,
       "title": "剑舞首秀，一击制胜",
